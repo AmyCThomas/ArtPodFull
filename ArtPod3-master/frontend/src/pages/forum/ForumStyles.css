@@ -1,0 +1,158 @@
+.forum-title {
+  margin: 2%;
+  font-weight: 300;
+}
+
+.forum-item-div {
+  display: flex;
+  justify-content: center;
+}
+
+.forum-items {
+  align-items: justified;
+  height: 10vh;
+  background-color: #fdfdfd;
+  width: 56%;
+}
+
+.main-title {
+  font-size: 1.3em;
+  color: rgb(4, 69, 51);
+  font-weight: 100;
+}
+
+.post-items {
+  align-items: justified;
+  height: 18vh;
+  position: relative;
+}
+
+.post-items::before {
+  content: "";
+  position: absolute;
+  top: 80%;
+  margin: 0 auto;
+  width: 56%;
+  padding-top: 20px;
+  border-bottom: 1px solid rgba(77, 76, 76, 0.3);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.item-title {
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+/* Post list page */
+.topic-cont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: .7%;
+}
+
+.topic-div {
+  width: 56%;
+}
+
+.create-btn {
+  margin: 2%;
+}
+
+/* Post details */
+
+.main-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2%;
+}
+
+.post-cont {
+  margin: auto 15%;
+  width: 70%;
+
+}
+
+.detail-title {
+  background-color: #e8eba7;
+  min-height: 5vh;
+  overflow: hidden;
+  font-style: italic
+}
+
+.detail-cont {
+  min-height: 20vh;
+  border: 1px solid rgb(15, 15, 15, 0.4);
+  overflow: hidden;
+}
+
+.description {
+
+  border-left: 1px solid rgb(30, 30, 30, 0.3);
+}
+
+
+
+/* comment */
+
+.comment-title {
+  background-color: #d7dae3;
+  min-height: 5vh;
+  overflow: hidden;
+}
+
+.form-cont {
+  width: 50%;
+  margin: auto 10%;
+}
+
+/* post form */
+.post-form-items {
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+.post-form-cont {
+  width: 50%;
+}
+css 
+.btn-three {
+	color: #FFF;
+	transition: all 0.5s;
+	position: relative;
+}
+.btn-three::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.1);
+	transition: all 0.3s;
+}
+.btn-three:hover::before {
+	opacity: 0 ;
+	transform: scale(0.5,0.5);
+}
+.btn-three::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border: 1px solid rgba(20, 8, 84, 0.5);
+	transform: scale(1.2,1.2);
+}
+.btn-three:hover::after {
+	opacity: 1;
+	transform: scale(1,1);
+}

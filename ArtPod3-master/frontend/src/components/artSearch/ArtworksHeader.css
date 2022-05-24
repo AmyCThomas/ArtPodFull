@@ -1,0 +1,16 @@
+.art-header{
+  height: 30vh;
+  overflow: hidden;
+  background-image: url('./UndertheWave.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  animation: zoomIn 4s;
+  text-align: center;
+}
+
+.text-start{
+  margin: 2%;
+  font-weight: 300;
+  text-align: center;
+  }
