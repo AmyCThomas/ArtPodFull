@@ -57,3 +57,4 @@ ArtPodAPI.deleteItem = async (item, itemId) => {
     () => axios.delete(`${BASE_URL}/${item}/${itemId}/`, apiHelpers.getCsrfConfig())
   )
 }
+export default ArtPodAPI.js
