@@ -18,6 +18,7 @@
 
 .top-nav {
     background-color: #373874;
+    background-color: rgba(0, 0, 0, 0.80);
     overflow: hidden;
     position: fixed; 
     top: 0;
